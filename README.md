@@ -1,16 +1,16 @@
 # AndroPred
 
-**AndroPred* is a Deep Neural network-based model for prediction of Androgen Receptor (AR) inhibitors using 
+**AndroPred** is a Deep Neural network-based model for prediction of Androgen Receptor (AR) inhibitors using 
 Simplified Molecular Input Line Entry System (SMILES) notation of Compounds.
 
 ## Contents
 
 The files contained in this repository are as follows:
- * ``prediction_script.py``: main script to run predictions
- * ``smiles.smi``: user input structures (multiple)
+ * ``prediction_script.py``: Main script to run predictions
+ * ``smiles.smi``: User input structures (multiple)
  * ``deepSSLmodel.h5``: DNN prediction model
- * ``input-data.csv``: dataset
- * ``PaDEL``: folder with executable for feature calculation
+ * ``input-dnn.csv``: Training dataset
+ * ``PaDEL``: Folder with executable for feature calculation
 
 ## Requirements
 
