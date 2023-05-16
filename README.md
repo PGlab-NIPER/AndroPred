@@ -1,5 +1,4 @@
 # AndroPred
-Androgen Receptor Inhibitor Prediction
 
 **AndroPred* is a Deep Neural network-based model for prediction of Androgen Receptor (AR) inhibitors using 
 Simplified Molecular Input Line Entry System (SMILES) notation of Compounds.
