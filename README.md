@@ -9,7 +9,7 @@ The files contained in this repository are as follows:
  * ``prediction_script.py``: main script to run predictions
  * ``smiles.smi``: user input structures (multiple)
  * ``deepSSLmodel.h5``: DNN prediction model
- * ``data.csv``: training dataset
+ * ``input-data.csv``: dataset
  * ``PaDEL``: folder with executable for feature calculation
 
 ## Requirements
