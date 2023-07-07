@@ -14,6 +14,7 @@ The files contained in this repository are as follows:
 
 ## Requirements
 
+* Install Java for running PaDel subprocess
 * Python
 * Numpy
 * Pandas
