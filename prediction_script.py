@@ -61,10 +61,11 @@ def ar(input_ar: pd.DataFrame) -> np.ndarray:
     a = prediction[:,1]
     b=prediction[:,0]
     c=[]
-    if a >= b:
-        c = a
-    else:
-        c = b
+    for i in range(len(a)):
+        if a[i] >= b[i]:
+            c.append(a[i])
+        else:
+            c.append(b[i])
     
     prediction = encoder.inverse_transform(prediction.argmax(axis=1))
    
@@ -89,13 +90,14 @@ def run_prediction(folder: str) -> None:
         '-descriptortypes', 
         os.path.join(path, 'PaDEL-Descriptor/descriptors.xml'), 
         '-dir', folder, '-file', folder + '/PaDEL_features.csv', 
-        '-2d', '-fingerprints', '-removesalt', '-detectaromaticity', 
+        '-2d', '-fingerprints', '-removesalt', '-retainorder', '-detectaromaticity', 
         '-standardizenitro']
     # Calculate features
     subprocess.call(padel_cmd)
     print("Features calculated")
     # Create Dataframe for calculated features
     input_ar =pd.read_csv(folder + "/PaDEL_features.csv")
+    input_ar.fillna(0, inplace=True)
     # Store name of each sample
     names = input_ar['Name'].copy()
     # Remove names
