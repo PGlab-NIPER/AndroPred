@@ -40,7 +40,7 @@ file (e.g. ``smiles.smi``) or input SMILES notation. Remember to give a name or 
 
 ## Citation
 
-If you use **AndroPred** in your publication, consider citing the [paper]([https://pubmed.ncbi.nlm.nih.gov/37493402/])):
+If you use **AndroPred** in your publication, consider citing the [paper]([https://pubmed.ncbi.nlm.nih.gov/37493402/]):
 ```
 @ARTICLE{,
 AUTHOR={Rohit Gagare, Anju Sharma, Prabha Garg},   
