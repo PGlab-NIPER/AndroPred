@@ -40,7 +40,7 @@ file (e.g. ``smiles.smi``) or input SMILES notation. Remember to give a name or 
 
 ## Citation
 
-If you use **.............** in your publication, consider citing the [paper](https://............):
+If you use **AndroPred** in your publication, consider citing the [paper]([https://pubmed.ncbi.nlm.nih.gov/37493402/])):
 ```
 @ARTICLE{,
 AUTHOR={Rohit Gagare, Anju Sharma, Prabha Garg},   
@@ -48,7 +48,7 @@ TITLE={AndroPred: an artificial intelligence-based model for predicting androgen
 JOURNAL={Journal of biomolecular structure & dynamics,},      
 VOLUME={},           
 YEAR={2023},     
-URL={},       
+URL={https://pubmed.ncbi.nlm.nih.gov/37493402/},       
 DOI={10.1080/07391102.2023.2239935},      	
 ISSN={}
 }
