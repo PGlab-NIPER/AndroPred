@@ -43,13 +43,13 @@ file (e.g. ``smiles.smi``) or input SMILES notation. Remember to give a name or 
 If you use **.............** in your publication, consider citing the [paper](https://............):
 ```
 @ARTICLE{,
-AUTHOR={},   
-TITLE={},      
-JOURNAL={},      
+AUTHOR={Rohit Gagare, Anju Sharma, Prabha Garg},   
+TITLE={AndroPred: an artificial intelligence-based model for predicting androgen receptor inhibitors.},      
+JOURNAL={Journal of biomolecular structure & dynamics,},      
 VOLUME={},           
-YEAR={},     
+YEAR={2023},     
 URL={},       
-DOI={},      	
+DOI={10.1080/07391102.2023.2239935},      	
 ISSN={}
 }
 ```
